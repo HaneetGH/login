@@ -13,6 +13,8 @@ export class AppComponent {
 
   login(username: string, password: string) {
     alert(username + '-' + password);
+    console.log('User Name ' + username);
+    console.log('Passwrd ' + password);
   }
 }
 
