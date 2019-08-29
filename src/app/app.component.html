@@ -1,14 +1,14 @@
 <form class="example-form">
   <mat-form-field class="example-full-width">
-    <input matInput placeholder="Username" value="Sushi">
+    <input matInput placeholder="Username">
   </mat-form-field>
 
   <mat-form-field class="example-full-width">
-    <input matInput placeholder="Password">
+    <input matInput placeholder="Password" id="jasmine_content">
   </mat-form-field>
 
 
   <div class="example-button-row">
-    <button mat-button>Login</button>
+    <button mat-raised-button (click)="OnGetAllProducts(jasmine_content.toString())">Login</button>
   </div>
 </form>
