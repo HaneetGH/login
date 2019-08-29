@@ -8,8 +8,8 @@ import {Component} from '@angular/core';
 export class AppComponent {
   title = 'login';
 
-  OnGetAllProducts(categoryId: string) {
-    alert(categoryId);
+  OnGetAllProducts(pass: string, user: string) {
+    alert(pass + '-' + user);
   }
 }
 
