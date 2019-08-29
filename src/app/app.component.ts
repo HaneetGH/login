@@ -7,9 +7,12 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
   title = 'login';
+  username: any;
+  password: any;
+  showSpinner: any;
 
-  OnGetAllProducts(pass: string, user: string) {
-    alert(pass + '-' + user);
+  login(username: string, password: string) {
+    alert(username + '-' + password);
   }
 }
 

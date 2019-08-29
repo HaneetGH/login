@@ -2,8 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {MatSelectModule} from '@angular/material';
+import {
+  _MatMenuDirectivesModule,
+  MatCardModule,
+  MatIconModule,
+  MatMenuModule,
+  MatProgressSpinnerModule,
+  MatSelectModule,
+  MatToolbarModule
+} from '@angular/material';
 import {MatButtonModule} from '@angular/material/button';
+
+
+import {FormsModule} from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +24,14 @@ import {MatButtonModule} from '@angular/material/button';
   imports: [
     BrowserModule,
     MatSelectModule,
-    MatButtonModule
+    MatButtonModule,
+    MatToolbarModule,
+    MatIconModule,
+    _MatMenuDirectivesModule,
+    MatMenuModule,
+    MatCardModule,
+    FormsModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
