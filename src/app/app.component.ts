@@ -5,16 +5,23 @@ import {Component} from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
+
+  loginValue = {
+    username : '',
+    password : '',
+    ltype : ''
+  }
   title = 'login';
   username: any;
   password: any;
   showSpinner: any;
+  obj: any;
 
-  login(username: string, password: string) {
-    alert(username + '-' + password);
-    console.log('User Name ' + username);
-    console.log('Passwrd ' + password);
+  login() {
+    console.log(this.loginValue);
+
   }
 }
 
