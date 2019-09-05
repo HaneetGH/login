@@ -5,7 +5,33 @@
   max-width: 500px;
   width: 100%;
 }
+.red-square {
 
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-text {
+
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-btn {
+
+
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
 .example-full-width {
   width: 100%;
 }
